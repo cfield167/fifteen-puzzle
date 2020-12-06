@@ -1,0 +1,56 @@
+/*
+Name:Connor J Field
+FileName: Fifteen.css
+Function: Styles fifteen.html
+*/
+
+body {
+    font-size: 14pt;
+    font-family: Cursive;
+    text-align: center;
+}
+
+#controls {
+	padding-top: 10px;
+	text-align: center;
+}
+
+h1 {
+	margin: 10px 0px;
+	text-align: center;
+}
+
+
+/* puzzle area */
+#puzzlearea {
+    font-size: 40pt;
+    width: 400px;
+	height: 400px;
+	padding: 0px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* apply styling to the individual puzzle pieces */
+.piece {
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	border: 5px solid black;
+	height: 90px;
+	line-height: 90px;
+	position: absolute;
+	text-align: center;
+	width: 90px;
+}
+
+/*changes the styling of the moveable piece if you hover your mouse on it*/
+#move:hover {
+    border: 5px solid red;
+    color: red;
+}
+
+#w3c {
+	text-align: right;
+	border: none;
+}
